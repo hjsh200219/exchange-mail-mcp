@@ -3,7 +3,6 @@
 
 import msal
 import requests
-import json
 import os
 import sys
 from mcp.server.fastmcp import FastMCP
