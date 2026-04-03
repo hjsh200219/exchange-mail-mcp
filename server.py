@@ -7,10 +7,8 @@ import os
 import sys
 from mcp.server.fastmcp import FastMCP
 
-CLIENT_ID = os.environ.get("MS_CLIENT_ID", "14d82eec-204b-4c2f-b7e8-296a70dab67e")
-AUTHORITY = "https://login.microsoftonline.com/common"
-SCOPES = ["https://graph.microsoft.com/Mail.Read"]
-TOKEN_CACHE_FILE = os.environ.get("MS_TOKEN_CACHE", os.path.expanduser("~/.ms_token_cache.json"))
+from config import CLIENT_ID, AUTHORITY, SCOPES, TOKEN_CACHE_FILE
+
 GRAPH_BASE = "https://graph.microsoft.com/v1.0"
 
 mcp = FastMCP("exchange-mail")

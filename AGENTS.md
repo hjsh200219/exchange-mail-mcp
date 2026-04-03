@@ -4,6 +4,7 @@ Microsoft 365 Exchange mail MCP server using Graph API with Device Code Flow aut
 
 ## Structure
 
+- `config.py` - Shared constants (CLIENT_ID, AUTHORITY, SCOPES, TOKEN_CACHE_FILE)
 - `server.py` - MCP server (FastMCP). Tools: check_exchange_mail, read_exchange_mail, search_exchange_mail
 - `auth.py` - Standalone auth script for device code login/refresh
 - `pyproject.toml` - Project config. Entry points: `exchange-mail-mcp`, `exchange-mail-auth`

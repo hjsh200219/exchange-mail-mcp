@@ -19,4 +19,4 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
-include = ["server.py", "auth.py"]
+include = ["server.py", "auth.py", "config.py"]

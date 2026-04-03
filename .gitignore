@@ -5,3 +5,4 @@ __pycache__/
 .ms_token_cache.json
 *.egg-info/
 dist/
+_workspace/
