@@ -22,3 +22,5 @@ Microsoft 365 Exchange mail MCP server using Graph API with Device Code Flow aut
 uv run exchange-mail-auth   # Initial login
 uv run exchange-mail-mcp    # Start MCP server (stdio)
 ```
+
+> Be concise. No filler. Straight to the point. Use fewer words.
